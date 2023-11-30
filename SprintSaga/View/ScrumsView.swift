@@ -7,30 +7,41 @@
 
 import SwiftUI
 
-
 struct ScrumsView: View {
-    let scrums: [DailyScrum]
-  
+    @Binding var scrums: [DailyScrum]
+    @Environment(\.scenePhase) private var scenePhase
+    @State private var isPresentingNewScrumView = false
+    let saveAction: ()->Void
+
     var body: some View {
         NavigationStack {
-            List(scrums) { scrum in
-                NavigationLink(destination:DetailView(scrum: scrum)) {
+            List($scrums) { $scrum in
+                NavigationLink(destination: DetailView(scrum: $scrum)) {
                     CardView(scrum: scrum)
-                        .listRowBackground(scrum.theme.mainColor)
                 }
                 .listRowBackground(scrum.theme.mainColor)
             }
-            .navigationTitle("Daily Scrum")
-            .toolbar{
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/)  {
+            .navigationTitle("Daily Scrums")
+            .toolbar {
+                Button(action: {
+                    isPresentingNewScrumView = true
+                }) {
                     Image(systemName: "plus")
                 }
                 .accessibilityLabel("New Scrum")
             }
         }
+        .sheet(isPresented: $isPresentingNewScrumView) {
+            NewScrumSheet(scrums: $scrums, isPresentingNewScrumView: $isPresentingNewScrumView)
+        }
+        .onChange(of: scenePhase) { phase in
+            if phase == .inactive { saveAction() }
+        }
     }
 }
 
-#Preview {
-    ScrumsView(scrums: DailyScrum.sampleData)
+struct ScrumsView_Previews: PreviewProvider {
+    static var previews: some View {
+        ScrumsView(scrums: .constant(DailyScrum.sampleData), saveAction: {})
+    }
 }
