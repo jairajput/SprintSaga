@@ -24,6 +24,8 @@
 		D89F3ECB2B1845B1009E204A /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F3ECA2B1845B0009E204A /* MeetingFooterView.swift */; };
 		D89F3ECD2B1845F8009E204A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F3ECC2B1845F8009E204A /* HistoryView.swift */; };
 		D89F3ECF2B18463F009E204A /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F3ECE2B18463F009E204A /* ErrorView.swift */; };
+		D89F3ED12B1846F6009E204A /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F3ED02B1846F6009E204A /* AVPlayer+Ding.swift */; };
+		D89F3ED32B18472A009E204A /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F3ED22B18472A009E204A /* ErrorWrapper.swift */; };
 		D8F0C1E62ABEECC500A852B2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F0C1E52ABEECC500A852B2 /* DetailView.swift */; };
 		D8FDE2852ABB867C0080BF65 /* SprintSagaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FDE2842ABB867C0080BF65 /* SprintSagaApp.swift */; };
 		D8FDE2872ABB867C0080BF65 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FDE2862ABB867C0080BF65 /* MeetingView.swift */; };
@@ -49,6 +51,8 @@
 		D89F3ECA2B1845B0009E204A /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		D89F3ECC2B1845F8009E204A /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		D89F3ECE2B18463F009E204A /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		D89F3ED02B1846F6009E204A /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		D89F3ED22B18472A009E204A /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		D8F0C1E52ABEECC500A852B2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D8FDE2812ABB867C0080BF65 /* SprintSaga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SprintSaga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FDE2842ABB867C0080BF65 /* SprintSagaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintSagaApp.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 			children = (
 				D822D7552ABC49E9003C653C /* Theme.swift */,
 				D822D7572ABC4B33003C653C /* DailyScrum.swift */,
+				D89F3ED02B1846F6009E204A /* AVPlayer+Ding.swift */,
+				D89F3ED22B18472A009E204A /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -221,8 +227,10 @@
 				D89F3ECB2B1845B1009E204A /* MeetingFooterView.swift in Sources */,
 				D89F3ECD2B1845F8009E204A /* HistoryView.swift in Sources */,
 				D822D75F2ABE33EE003C653C /* ScrumsView.swift in Sources */,
+				D89F3ED32B18472A009E204A /* ErrorWrapper.swift in Sources */,
 				D89F3EBF2B1843AD009E204A /* TrailingIconLabelStyle.swift in Sources */,
 				D89F3ECF2B18463F009E204A /* ErrorView.swift in Sources */,
+				D89F3ED12B1846F6009E204A /* AVPlayer+Ding.swift in Sources */,
 				D8FDE2872ABB867C0080BF65 /* MeetingView.swift in Sources */,
 				D8FDE2852ABB867C0080BF65 /* SprintSagaApp.swift in Sources */,
 				D89F3EBB2B1842D3009E204A /* ThemeView.swift in Sources */,
