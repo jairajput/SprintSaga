@@ -28,6 +28,7 @@
 		D89F3ED32B18472A009E204A /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F3ED22B18472A009E204A /* ErrorWrapper.swift */; };
 		D89F3ED52B184776009E204A /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F3ED42B184776009E204A /* History.swift */; };
 		D89F3ED72B1847B5009E204A /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F3ED62B1847B5009E204A /* ScrumStore.swift */; };
+		D89F3ED92B18482D009E204A /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F3ED82B18482D009E204A /* ScrumTimer.swift */; };
 		D8F0C1E62ABEECC500A852B2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F0C1E52ABEECC500A852B2 /* DetailView.swift */; };
 		D8FDE2852ABB867C0080BF65 /* SprintSagaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FDE2842ABB867C0080BF65 /* SprintSagaApp.swift */; };
 		D8FDE2872ABB867C0080BF65 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FDE2862ABB867C0080BF65 /* MeetingView.swift */; };
@@ -57,6 +58,7 @@
 		D89F3ED22B18472A009E204A /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		D89F3ED42B184776009E204A /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		D89F3ED62B1847B5009E204A /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		D89F3ED82B18482D009E204A /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		D8F0C1E52ABEECC500A852B2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D8FDE2812ABB867C0080BF65 /* SprintSaga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SprintSaga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FDE2842ABB867C0080BF65 /* SprintSagaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintSagaApp.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				D89F3ED22B18472A009E204A /* ErrorWrapper.swift */,
 				D89F3ED42B184776009E204A /* History.swift */,
 				D89F3ED62B1847B5009E204A /* ScrumStore.swift */,
+				D89F3ED82B18482D009E204A /* ScrumTimer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				D89F3ED32B18472A009E204A /* ErrorWrapper.swift in Sources */,
 				D89F3EBF2B1843AD009E204A /* TrailingIconLabelStyle.swift in Sources */,
 				D89F3ECF2B18463F009E204A /* ErrorView.swift in Sources */,
+				D89F3ED92B18482D009E204A /* ScrumTimer.swift in Sources */,
 				D89F3ED12B1846F6009E204A /* AVPlayer+Ding.swift in Sources */,
 				D8FDE2872ABB867C0080BF65 /* MeetingView.swift in Sources */,
 				D8FDE2852ABB867C0080BF65 /* SprintSagaApp.swift in Sources */,
