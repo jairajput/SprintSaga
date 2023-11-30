@@ -16,6 +16,7 @@
 		D89F3EBB2B1842D3009E204A /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F3EBA2B1842D3009E204A /* ThemeView.swift */; };
 		D89F3EBD2B184327009E204A /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F3EBC2B184327009E204A /* ThemePicker.swift */; };
 		D89F3EBF2B1843AD009E204A /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F3EBE2B1843AD009E204A /* TrailingIconLabelStyle.swift */; };
+		D89F3EC12B184401009E204A /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F3EC02B184401009E204A /* SpeakerArc.swift */; };
 		D8F0C1E62ABEECC500A852B2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F0C1E52ABEECC500A852B2 /* DetailView.swift */; };
 		D8FDE2852ABB867C0080BF65 /* SprintSagaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FDE2842ABB867C0080BF65 /* SprintSagaApp.swift */; };
 		D8FDE2872ABB867C0080BF65 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FDE2862ABB867C0080BF65 /* MeetingView.swift */; };
@@ -33,6 +34,7 @@
 		D89F3EBA2B1842D3009E204A /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		D89F3EBC2B184327009E204A /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		D89F3EBE2B1843AD009E204A /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		D89F3EC02B184401009E204A /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		D8F0C1E52ABEECC500A852B2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D8FDE2812ABB867C0080BF65 /* SprintSaga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SprintSaga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FDE2842ABB867C0080BF65 /* SprintSagaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintSagaApp.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				D89F3EBA2B1842D3009E204A /* ThemeView.swift */,
 				D89F3EBC2B184327009E204A /* ThemePicker.swift */,
 				D89F3EBE2B1843AD009E204A /* TrailingIconLabelStyle.swift */,
+				D89F3EC02B184401009E204A /* SpeakerArc.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D89F3EC12B184401009E204A /* SpeakerArc.swift in Sources */,
 				D89F3EBD2B184327009E204A /* ThemePicker.swift in Sources */,
 				D822D7582ABC4B33003C653C /* DailyScrum.swift in Sources */,
 				D8F0C1E62ABEECC500A852B2 /* DetailView.swift in Sources */,
