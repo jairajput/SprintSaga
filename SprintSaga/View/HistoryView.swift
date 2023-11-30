@@ -51,4 +51,3 @@ struct HistoryView_Previews: PreviewProvider {
         HistoryView(history: history)
     }
 }
-
